@@ -92,7 +92,7 @@ console.log('---- ---- Aula 26 ---- ----')
 
 texto = "Você precisa responder sim, não ou não sei"
 
-console.log(texto.match(/sim|n[ã|a]o\ssei|não/g))
+console.log(texto.match(/sim|n[ãa]o sei|não/g))
 
 console.log('---- ---- ---- ---- ----')
 
