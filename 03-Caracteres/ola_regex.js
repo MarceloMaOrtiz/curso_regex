@@ -72,3 +72,47 @@ const notas = '8.3,7.1,8.8,10.0'
 
 console.log(notas.match(/8../g))
 console.log(notas.match(/.\../g))
+
+console.log('---- ---- ---- ---- ----')
+
+// Aula 24
+
+console.log('---- ---- Aula 24 ---- ----')
+
+texto = `
+ca	r
+r	o s!
+`
+
+console.log(texto.match(/ca\tr\nr\to\ss!/))
+
+console.log('---- ---- ---- ---- ----')
+
+console.log('---- ---- Aula 26 ---- ----')
+
+texto = "Você precisa responder sim, não ou não sei"
+
+console.log(texto.match(/sim|n[ã|a]o\ssei|não/g))
+
+console.log('---- ---- ---- ---- ----')
+
+console.log('---- ---- Aula 27 ---- ----')
+
+texto = "Bom\ndia"
+
+console.log(texto.match(/./gi))
+console.log(texto.match(/.../gi))
+console.log(texto.match(/..../gi))
+
+console.log('---- ---- ---- ---- ----')
+
+console.log('---- ---- Aula 28 ---- ----')
+
+// https://unicode-table.com/pt
+// ʬ = 02AC
+// ௵ = 0BF5
+texto = "aʬc௵d"
+
+console.log(texto.match(/\u02AC|\u0BF5/gi))
+
+console.log('---- ---- ---- ---- ----')
