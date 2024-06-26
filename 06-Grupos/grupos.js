@@ -47,7 +47,7 @@ console.log(texto6.match(/(abc)/gi))
 
 console.log('---- ---- ---- ---- ----')
 
-console.log('---- ---- Aula 51 ---- ----')
+console.log('---- ---- Aula 51 e 52 ---- ----')
 
 const texto7 = 'João é calmo, mas no transito fica nervoso.'
 
